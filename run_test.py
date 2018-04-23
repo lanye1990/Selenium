@@ -42,7 +42,7 @@ def new_report(testreport):
 
 # ============================定义发生邮件=================================
 if __name__ == '__main__':
-    now = time.strftime('%Y-%m-%d %H-%M-%S')
+    now = time.strftime('%Y-%m-%d-%H-%M-%S')
     filename = './report/' + now + 'result.html'
 
     fp = open(filename,'wb')
